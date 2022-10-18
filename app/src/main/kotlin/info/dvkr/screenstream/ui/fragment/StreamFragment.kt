@@ -72,7 +72,7 @@ class StreamFragment : AdFragment(R.layout.fragment_stream) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        loadAdOnViewCreated(binding.flFragmentStreamAdViewContainer)
+//        loadAdOnViewCreated(binding.flFragmentStreamAdViewContainer)
 
         binding.tvFragmentStreamTrafficHeader.text = getString(R.string.stream_fragment_current_traffic).run {
             format(0.0).setColorSpan(colorAccent, indexOf('%'))
